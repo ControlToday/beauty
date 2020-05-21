@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion '22.0.1'
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "beauty.beautydemo"
@@ -46,7 +46,8 @@ repositories {
 
 repositories {
     maven {
-        url "https://repo.commonsware.com.s3.amazonaws.com"
+//        url "https://repo.commonsware.com.s3.amazonaws.com"
+        url "https://s3.amazonaws.com/repo.commonsware.com"
     }
 }
 repositories {
